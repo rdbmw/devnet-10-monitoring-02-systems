@@ -1,0 +1,30 @@
+rdbmw@rdbmw-desktop:~/netology/sandbox$ curl -I http://localhost:8086/ping
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Request-Id: f80fb4b8-690e-11ed-81b5-0242ac130002
+X-Influxdb-Build: OSS
+X-Influxdb-Version: 1.8.10
+X-Request-Id: f80fb4b8-690e-11ed-81b5-0242ac130002
+Date: Sun, 20 Nov 2022 20:07:33 GMT
+
+rdbmw@rdbmw-desktop:~/netology/sandbox$ curl -I  http://localhost:8888
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=3600
+Content-Length: 414
+Content-Security-Policy: script-src 'self'; object-src 'self'
+Content-Type: text/html; charset=utf-8
+Etag: ubyGAbz3Tc69bqd3w45d4WQtqoI=
+Vary: Accept-Encoding
+X-Chronograf-Version: 1.10.0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Date: Sun, 20 Nov 2022 20:07:42 GMT
+
+rdbmw@rdbmw-desktop:~/netology/sandbox$ curl -I  http://localhost:9092/kapacitor/v1/ping
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+Request-Id: 0b08c6c9-690f-11ed-813a-0242ac130004
+X-Kapacitor-Version: 1.6.5
+Date: Sun, 20 Nov 2022 20:08:04 GMT
