@@ -36,10 +36,10 @@
 
 #### Ответ
 
-- Prometheus: pull
+- Prometheus: гибридная (и push, и pull)
 - TICK: push
-- Zabbix: push
-- VictoriaMetrics: push
+- Zabbix: гибридная (и push, и pull)
+- VictoriaMetrics: pull
 - Nagios: pull
 
 ### Задание 3
